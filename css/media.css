@@ -380,15 +380,30 @@
 
     @media (max-width: 500px) {
 
-        .html {
-            width: 500px;
-        }
-        
-        .header {
-            width: 600px;
-            background-position: 48% 50%;
-        }
+    .hero_h1  {
+        font-size: 17px;
+        top: 35%;
+        right: 31%;
+        text-align: center;
+    }
+
+    .header {
+        background-position: 49% 50%;
+    }
     
+    .container2 {
+        max-width: 800px;
+    }
+    
+    .anv {
+        width: 600px;
+    }
+
+    
+    .container {
+        width: 250px;
+        
+    }
         .container {
             max-width: 500px;
             
@@ -416,6 +431,7 @@
 
         .article {
             margin-top: 50px;
+            width: 600px;
 
         }
     
