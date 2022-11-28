@@ -327,11 +327,12 @@
 
     .article-title {
         font-size: 25px;
-        font-size: 35px;
+        
     }
 
     .article {
         background-color: #f3a704;
+        font-size: 35px;
     }
 
 
