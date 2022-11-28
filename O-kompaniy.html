@@ -1,43 +1,70 @@
 <!DOCTYPE html>
-<html lang="ru" class="onas">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O-kompamii</title>
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="sweetalert.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 
-<body class="onas container">
+<body>
     <header id="header" class="header">
-        <div class="container">
-            <div class="nav container">
+        <div class="container2">
+            <div class="nav container2">
                 <img src="img/logo.png" alt="Везде все и сразу" class="logo container">
-                <ul class="menu">
+                <ul class="menu open">
                     <li class="menu_link">
                         <a href="">Главная</a>
                     </li>
                     <li class="menu_link">
-                        <a href="">О компании</a>
+                        <a href="O-kompaniy.html">О компании</a>
                     </li>
                     <li class="menu_link">
                         <a href="">Контакты</a>
-                    </li> 
-                    <li class="menu_link">                  
+                    </li>
+                    <li class="menu_link">
                         <a href="">Химчистка</a>
                     </li>
                 </ul>
                 <a href="tel" class="tel">+7(705)965-17-18</a>
-                <a href="#" class="nav-soc">
-                    <img src="img/insta.png" alt="">
-                </a>
-                <a href="#" class="nav-soc">
-                    <img src="img/telega.png" alt="">
-                </a>
-                <a href="#" class="nav-soc">
-                    <img src="img/wh.png" alt="">
-                </a>
+                <a href="https://www.instagram.com/electronik_2022/" class="nav-soc fa-brands fa-instagram fa-2x"></a>
+                <a href="#" class="nav-soc fa-brands fa-telegram fa-2x"></a>
+                <a href="https://wa.me/+77072230233" class="nav-soc fa-brands fa-whatsapp fa-2x"></a>
+            </div>
+            <button class="nav-button">
+                <img src="img/burger.png" alt="">   
+            </button>
+        </div>
+        <div class="hero_title container">
+            <h1 class="hero_h1 container">
+                РЕМОНТ БЫТОВОЙ ТЕХНИКИ <br> БЫСТРО И КАЧЕСТВЕННО <br> АЛМАТЫ И ОБЛАСТЬ
+            </h1>
+            <div class="zakaz container">
+                <button class="btn container" id="open_pop_up">
+                    Заказать
+                </button>
+            </div>
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <p>Оставить заказ</p>
+                        <form>
+                            <input type="text" placeholder="Имя" name="name">
+                            <input type="text" name="tel" placeholder="Телефон" id="phone" data-validate-field="tel">
+                            <button type="submit" class="btn btn-primary">Оставить заказ</button>
+                        </form>
+                        <div class="pop_up_close" id="pop_up_close">
+                            &#10006
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

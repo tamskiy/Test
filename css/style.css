@@ -121,9 +121,9 @@ li {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: #fff;
+    color: rgb(255, 160, 7);
     text-align: center;
-    font-size: 15px;
+    font-size: 50px;
 
 }
 
@@ -243,8 +243,8 @@ li {
     position: absolute;
     flex-direction: column;
     left: 19%;
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 17px;
+    line-height: 1.7;
 }
 
 
@@ -394,7 +394,10 @@ li {
     background-color: #f3a704;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+
 }
+
+
 
 .himiya-title {
     font-size: 65px;
@@ -545,7 +548,7 @@ li {
     text-decoration: none;
 }
 
-.inform  a {
+.inform a {
     text-decoration: none;
     color: #000000;
     margin-right: 10px;
@@ -575,10 +578,7 @@ li {
 
 /*******************************************ONAS*****************/
 
-.onas {
-    max-width: 1350px;
-    margin: 0 auto;
-}
+
 
 .zagolovok {
     font-size: 32px;
@@ -691,26 +691,34 @@ li {
     right: 13px;
     bottom: 50px;
     transform: translate(-50%, -50%);
-    background: #25D366; /*цвет кнопки*/
+    background: #25D366;
+    /*цвет кнопки*/
     border-radius: 50%;
-    width: 55px; /*ширина кнопки*/
-    height: 55px; /*высота кнопки*/
+    width: 55px;
+    /*ширина кнопки*/
+    height: 55px;
+    /*высота кнопки*/
     color: #fff;
     text-align: center;
-    line-height: 53px; /*центровка иконки в кнопке*/
-    font-size: 35px; /*размер иконки*/
+    line-height: 53px;
+    /*центровка иконки в кнопке*/
+    font-size: 35px;
+    /*размер иконки*/
     z-index: 9999;
 }
+
 .whatsapp-button a {
     color: #fff;
 }
+
 .whatsapp-button:before,
 .whatsapp-button:after {
     content: " ";
     display: block;
     position: absolute;
     border: 50%;
-    border: 1px solid #25D366; /*цвет анимированных волн от кнопки*/
+    border: 1px solid #25D366;
+    /*цвет анимированных волн от кнопки*/
     left: -20px;
     right: -20px;
     top: -20px;
@@ -718,26 +726,24 @@ li {
     border-radius: 50%;
     animation: animate 1.5s linear infinite;
     opacity: 0;
-    backface-visibility: hidden; 
+    backface-visibility: hidden;
 }
- 
-.whatsapp-button:after{
+
+.whatsapp-button:after {
     animation-delay: .5s;
 }
- 
-@keyframes animate
-{
-    0%
-    {
+
+@keyframes animate {
+    0% {
         transform: scale(0.5);
         opacity: 0;
     }
-    50%
-    {
+
+    50% {
         opacity: 1;
     }
-    100%
-    {
+
+    100% {
         transform: scale(1.2);
         opacity: 0;
     }

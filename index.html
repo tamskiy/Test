@@ -39,12 +39,12 @@
                 <a href="https://wa.me/+77072230233" class="nav-soc fa-brands fa-whatsapp fa-2x"></a>
             </div>
             <button class="nav-button">
-                <img src="img/burger.png" alt="">   
+                <img src="img/burger.png" alt="">
             </button>
         </div>
         <div class="hero_title container">
             <h1 class="hero_h1 container">
-                РЕМОНТ БЫТОВОЙ ТЕХНИКИ <br> БЫСТРО И КАЧЕСТВЕННО <br> АЛМАТЫ И ОБЛАСТЬ
+               Electronik.kz
             </h1>
             <div class="zakaz container">
                 <button class="btn container" id="open_pop_up">
@@ -153,7 +153,7 @@
 
             </p>
             <p>
-                Заказать услугу по ремонту бытовой техники можно на официальном сайте «Все Везже и Сразу». Если у вас
+                Заказать услугу по ремонту бытовой техники можно на официальном сайте «Electronik.kz». Если у вас
                 есть какие-то вопросы, квалифицированные менеджеры с удовольствием проконсультируют по телефону или при
                 личном общении.
             </p>
@@ -164,23 +164,20 @@
             </h2>
             <ul class="spisok_service container">
                 <li class="spisok">
-                    <span class="numbers">1.</span> Гарантия - от 6 месяцев до 2-х лет.
+                    <span class="numbers">1.</span> В нашем сервисе высокая скорость работы. от 15 минут до пары часов.
                 </li>
                 <li class="spisok">
-                    <span class="numbers">2.</span> Быстро - в 70% случаях мы ремонтируем технику у вас дома.
+                    <span class="numbers">2.</span> Экономим ваше время, приезжаем к вам сами.
                 </li>
                 <li class="spisok">
-                    <span class="numbers">3.</span> ВЫЕЗД и диагностика в пределах города бесплатно.
+                    <span class="numbers">3.</span> Используем оригинальные запчасти от производителей.
                 </li>
                 <li class="spisok">
-                    <span class="numbers">4.</span> Работаем без выходных - 24/7.
+                    <span class="numbers">4.</span> Очень вежливый персонал, который всегда поможет.
                 </li>
                 <li class="spisok">
-                    <span class="numbers">5.</span> СКИДКА - на первое обращение в сервис 15% скидка, пенсионерам скидка
+                    <span class="numbers">5.</span> Большинство запчастей имеются в наличии.
                     20%.
-                </li>
-                <li class="spisok">
-                    <span class="numbers">6.</span> НИЗКИЕ ЦЕНЫ - качественный ремонт может быть не всегда дорогим.
                 </li>
             </ul>
             <img src="img/service.png" alt="" class="container">
@@ -219,10 +216,11 @@
         </section>
         <section class="numform container">
             <div class="container1">
-                <form  class="form">
+                <form class="form">
                     <label class="label" for="phone">Оставьте свой номер телефона и мы вам перезвоним</label>
                     <div class="input-wrap">
-                        <input type="text" name="tel" placeholder="Телефон" id="tel" data-validate-field="tel" class="phone">
+                        <input type="phone" name="tel" placeholder="Телефон" id="tel" data-validate-field="tel"
+                            class="phone">
                         <button type="submit" class="button">Оставить заказ</button>
                     </div>
                 </form>
@@ -272,21 +270,22 @@
                 <h3>
                     Телефон
                 </h3>
-                <h3 >
+                <h3>
                     <i class="fa-solid fa-phone"></i>
                     <a href="tel:8(777)-116-24-69">8(777)-116-24-69</a>
-                    
+
                 </h3>
                 <a href="https://www.instagram.com/electronik_2022/" class="foter_soc fa-brands fa-instagram fa-3x"></a>
                 <a href="#" class="foter_soc fa-brands fa-telegram fa-3x"></a>
                 <a href="https://wa.me/+77072230233" class="foter_soc fa-brands fa-whatsapp fa-3x"></a>
             </div>
         </section>
-        <a href="https://api.whatsapp.com/send?phone=79269262626" target="_blank" title="Написать в Whatsapp" rel="noopener noreferrer">
-			<div class="whatsapp-button">
-				<i class="fa fa-whatsapp"></i>
-			</div>
-		</a>
+        <a href="https://api.whatsapp.com/send?phone=79269262626" target="_blank" title="Написать в Whatsapp"
+            rel="noopener noreferrer">
+            <div class="whatsapp-button">
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </a>
         <footer class="footer">
             <h2>
                 © Ремонт бытовой техники «electronik.kz» 2022 Все права защищены.
@@ -295,12 +294,20 @@
     </main>
     <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
-    <script src="js/just-validate.min.js"></script>
-    <script scr="js/common.js"></script>
     <script src="https://kit.fontawesome.com/733ec43304.js" crossorigin="anonymous"></script>
     <script src="js/sweetalert.min.js"></script>
     <script src="js/form.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script>
+
+        jQuery(function ($) {
+            $("input[name=tel]").mask("8(000) 000-00-00");
+        });
+
+    </script>
+
+
 </body>
 
 </html>
