@@ -352,6 +352,8 @@
 
     .article {
         width: 600px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .article-title {
@@ -388,6 +390,7 @@
     }
 
     .brnd  {
+        width: 250px;
         margin-top: 30px;
     }
 
@@ -414,7 +417,7 @@
         font-size: 15px;
     }
     .cardddd {
-        width: 500px; 
+        width: 550px; 
     }
 }
 
