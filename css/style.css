@@ -10,10 +10,11 @@ body {
     padding: 0;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 
 }
 
-.wrapper {
+.wrapper1 {
     max-width: 1350px;
     flex-direction: column;
 
@@ -41,16 +42,18 @@ li {
 }
 
 .header {
+
     position: relative;
     background: url('../img/headbackground.png') no-repeat center top;
-    background-size: cover;
+    background-size: auto;
     height: 900px;
+    margin-bottom: 100px;
 
 
 }
 
 .header a {
-    color: black;
+    color: #000000;
 
 }
 
@@ -81,7 +84,7 @@ li {
 }
 
 .tel {
-    margin-top: 5px;
+    margin-top: 2px;
     text-decoration: none;
     margin-right: 50px;
     color: #F3AF55;
@@ -157,7 +160,7 @@ li {
 
     align-items: flex-end;
     position: absolute;
-    margin-right: 100px;
+    margin-right: 145px;
     top: 45%;
 }
 
@@ -440,6 +443,7 @@ li {
 
 .brnd {
     margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 
@@ -748,3 +752,230 @@ li {
         opacity: 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .wrapper{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .wrapper .card{
+    position: relative;
+    cursor: pointer;
+   }
+
+   .wrapper .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+   }
+
+   .wrapper .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+   }
+
+   .wrapper .card:hover .face.face1{
+    background: #f3a704;
+    transform: translateY(0);
+   }
+
+   .wrapper .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+   }
+ 
+   .wrapper .card:hover .face.face1 .content{
+    opacity: 1;
+   }
+
+   .wrapper .card .face.face1 .content img{
+    max-width: 100px;
+   }
+   .wrapper .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+   }
+   .wrapper .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+   }
+
+   .wrapper .card:hover .face.face2{
+    transform: translateY(0);
+   }
+   .wrapper .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+   }
+   .wrapper .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+   }
+   .wrapper .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .koguvcavis-varazdel {
+    padding: 25px 0;
+    background: #adadad;
+    color: #2f2f2f;
+    text-align: center;
+  }
+  .sestim-donials{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .sectionesag {
+    width: 195px;
+    height: 3px;
+    background: #498a2d;
+    margin: 23px auto;
+  }
+  
+  .sagestim-lonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vemotau-vokusipol{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial {
+    background: #f9f4f4;
+    padding: 28px;
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .gecedanam{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .apogered-gselected{
+    color: #53b32b;
+    margin-bottom: 20px;
+  }
+  
