@@ -83,16 +83,25 @@
 
     .whatsapp-button {   
         bottom: 25px; /*отступ кнопки снизу от экрана*/
-        left: 950px; /*отступ кнопки слева от экрана(right - справа)*/
+        left: 900px; /*отступ кнопки слева от экрана(right - справа)*/
       }
 
     .header {
-        background-position: 35% 50%;
+        background-position: 32% 50%;
     }
 
     .hero_h1 {
         right: 2;
         font-size: 80px;
+    }
+
+    .zakaz {
+        margin-right: 100px;
+        top: 43%
+    }
+
+    .article-title {
+        font-size: 30px;
     }
 }
 
@@ -110,6 +119,16 @@
 
 
 @media (max-width: 992px) {
+
+    .hero_h1 {
+        font-size: 60px;
+        
+    }
+
+    .zakaz {
+        margin-right: 50px;
+    }
+
     .container {
         max-width: 750px;
     }
@@ -126,20 +145,29 @@
         font-size: 8px;
         top: 29%;
     }
+
+    .himiya {
+        display: none;
+    }
+    .whatsapp-button {   
+        bottom: 25px; /*отступ кнопки снизу от экрана*/
+        left: 800px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
 }
 
 @media (max-width: 768px) {
 
     .hero_h1  {
-        font-size: 17px;
-        top: 35%;
-        right: 35%;
+        font-size: 70px;
+        top: 90%;
+        right: 18%;
         text-align: center;
-        display: none;
+        
     }
 
     .zakaz {
-        margin-right: 150px;
+        margin-right: 100px;
         top: 100%;
     }
 
@@ -168,7 +196,7 @@
         display: none;
     }
     .article-title {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .himiya_text {
@@ -192,15 +220,93 @@
     .footer {
         font-size: 10px;
     }
+
+
+    .nav-button {
+        top: 8%;
+        right: 3%;
+    }
+
+    .cardddd {
+        width: 950px;
+    }
+
+    .container1 {
+        width: 50px;
+    }
+
+    .button button {
+        margin-left: 45px;
+    }
+
+    .label {
+        text-align: center;
+        width: 400px;
+    }
+
+    .cardddd {
+        width: 650px;
+    }
+
+    .card {
+        width: 190px;
+    }
+    .whatsapp-button {   
+        bottom: 25px; /*отступ кнопки снизу от экрана*/
+        left: 600px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
+      .divinfo {
+        margin-right: 50px;
+      }
+
+      .brands-title {
+        font-size: 28px;
+      }
+
 }
 
 
+
+@media (max-width: 650px) {
+    .hero_h1 {
+        right: 12%;
+    }
+}
 
 
 @media (max-width: 600px) {
 
     .header {
         width: 600px;
+    }
+
+
+    .spisok_block_phone {
+        display: block;
+        font-size: 11px;
+        line-height: 2.4;
+        position: absolute;
+     
+        
+    }
+
+    .spisok_block_phone li {
+        width: 350px;
+    }
+
+    .advantage_phone  {
+        margin-top: 35px;
+        max-width: 490px;
+       
+    }
+
+
+    .advantage_mobile {
+        display: block;
+        justify-content: start;
+
+        
     }
 
     .hero_h1  {
@@ -223,7 +329,7 @@
     }
 
     .article {
-        background-color: #f3a704;
+        background-color: #D9D9D9;
     }
 
     .menu {
@@ -274,7 +380,8 @@
       }
 
    .nav-button {
-    top: 8%;
+    top: 1%;
+    right: 6%;
    }
       
     .nav-button {
@@ -284,6 +391,8 @@
     .article {
         margin-top: 50px;
         max-width: 500px;
+        padding-left: 90px;
+        padding-right: 90px;
 
     }
 
@@ -298,6 +407,19 @@
     .vemotau-vokusipol{
         flex: 100%;
         max-width: 100%;
+      }
+
+      .header .nav-soc {
+        display: none;
+      }
+
+
+      .cardddd {
+        width: 550px;
+      }
+
+      .advantage_phone {
+        justify-content: center;
       }
 }
 
@@ -342,6 +464,32 @@
         display: none;
     }
 
+    .spisok_block_phone {
+        display: block;
+        font-size: 11px;
+        line-height: 2.4;
+        position: absolute;
+     
+        
+    }
+
+    .spisok_block_phone li {
+        width: 350px;
+    }
+
+    .advantage_phone  {
+        margin-top: 35px;
+        max-width: 490px;
+       
+    }
+
+
+    .advantage_mobile {
+        position: relative;
+        justify-content: center;
+        
+    }
+
     .service {
         display: none;
     }
@@ -361,7 +509,7 @@
     }
 
     .article {
-        background-color: #f3a704;
+        background-color: #D9D9D9;
         font-size: 35px;
     }
 
@@ -389,8 +537,12 @@
         font-size: 15px;
     }
 
+    .brands {
+        width: 500px;
+    }
+
     .brnd  {
-        width: 250px;
+        width: 400px;
         margin-top: 30px;
     }
 
@@ -424,17 +576,22 @@
 
 
 
-@media (max-width : 800px) {  
-    .whatsapp-button {   
-        bottom: 50px; /*отступ кнопки снизу от экрана*/
-        left: 700px; /*отступ кнопки слева от экрана(right - справа)*/
-      }
-    }
+@media (max-width : 800px) {
+
+}
 
 
 
 
     @media (max-width: 500px) {
+
+    .logo {
+        width: 200px;
+    }
+
+    .cardddd {
+        width: 550px;
+    }
 
     .hero_h1  {
         display: none;
@@ -489,6 +646,7 @@
         .article {
             margin-top: 50px;
             width: 600px;
+            padding: 50px;
 
         }
     
@@ -526,7 +684,8 @@
         }
 
         .logo {
-            margin-top: 18px;
+            margin-top: 5px;
+            margin-left: 0px;
     
         }
 
@@ -557,9 +716,70 @@
         }
 
         .brands-title {
-            font-size: 15px;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .brnd {
+            width: 400px;
+        }
+
+        .brands {
+            width: 500px;
+        }
+        
+        .nav-button {
+            right: 4%;
+            top: 3%;
+        }
+
+        .header a {
+            margin-top: 10px;
+        }
+
+        .header i {
+            margin-top: 10px;
+        
+        }
+
+        .zakaz{
+            margin-right: 5px;
+        }
+
+        .spisok_block_phone {
+            display: block;
+            font-size: 10px;
+            line-height: 2.4;
+            position: absolute;
+            padding-left: 20px;
+         
+            
         }
     
+        .spisok_block_phone li {
+            width: 350px;
+        }
+    
+        .advantage_phone  {
+            margin-top: 35px;
+            width: 400px;
+           
+        }
+    
+    
+        .advantage_mobile {
+            position: relative;
+            justify-content: center;
+            
+        }
+
+        .card {
+            height: 320px;
+        }
+
+        .input-wrap {
+            width: 350px;
+        }
     }
 
 
@@ -631,6 +851,16 @@
 
         .article {
             width: 500px;
+        }
+
+
+        .zakaz {
+            margin-right: 25px;
+        }
+
+
+        .advantage_phone {
+            justify-content: center;
         }
 
         

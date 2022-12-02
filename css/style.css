@@ -1,12 +1,13 @@
 html {
     box-sizing: border-box;
     background-color: #F1EEEE;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 
 body {
-
+    font-weight: bold;
     padding: 0;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
@@ -42,7 +43,8 @@ li {
 }
 
 .header {
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     position: relative;
     background: url('../img/headbackground.png') no-repeat center top;
     background-size: auto;
@@ -55,6 +57,10 @@ li {
 .header a {
     color: #000000;
 
+}
+
+#num {
+    color: #f3a704;
 }
 
 .header a:hover {
@@ -116,7 +122,6 @@ li {
 .logo {
     margin-right: 40px;
     margin-top: 0px;
-
 }
 
 
@@ -133,6 +138,7 @@ li {
 .hero_h1 {
     position: absolute;
     top: 30%;
+
 }
 
 
@@ -160,8 +166,8 @@ li {
 
     align-items: flex-end;
     position: absolute;
-    margin-right: 145px;
-    top: 45%;
+    margin-right: 180px;
+    top: 50%;
 }
 
 
@@ -189,7 +195,9 @@ li {
     padding: 0 15px;
 }
 
-
+.advantage_phone  {
+    display: none;
+}
 
 
 .numbers {
@@ -208,11 +216,17 @@ li {
 
 }
 
+
+.spisok_block_phone  {
+    display: none;
+}
+
 .article {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     padding: 0 15px;
+    font-weight: lighter;
 
 }
 
@@ -249,90 +263,6 @@ li {
     font-size: 17px;
     line-height: 1.7;
 }
-
-
-
-
-
-
-
-
-
-
-
-.balls {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-top: 65px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    width: 90.70%;
-    gap: 10rem;
-    row-gap: 40px;
-
-}
-
-
-
-
-
-
-
-
-.balls2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 65px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-
-}
-
-.ball__text {
-    margin: 0;
-    text-align: center;
-}
-
-
-.ball___text {
-    margin: 0;
-    text-align: center;
-}
-
-.oven {
-    display: flex;
-    justify-content: center;
-    margin-left: 0px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.fridge {
-    display: flex;
-    justify-content: center;
-    margin-left: 0px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.other {
-    display: flex;
-    justify-content: center;
-    margin-left: 0px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.clean {
-    margin-top: 50px;
-    font-size: 45px;
-    padding-left: 360px;
-
-}
-
 
 
 .numform {
@@ -573,7 +503,20 @@ li {
 }
 
 .divinfo a {
-    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.menu_openfoter {
+    justify-content: column;
+    line-height: 2.2;
+    font-size: 20px;
+    margin-top: 82px;
+
+}
+
+.divinfo {
+    margin-right: 300px;
+    
 }
 
 
@@ -585,9 +528,13 @@ li {
 
 
 .zagolovok {
-    font-size: 32px;
-    max-width: 1350px;
-    padding-left: 270px;
+    justify-content: flex-end;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.zagolovok h1 {
+    margin-bottom: 0;
 }
 
 
@@ -598,35 +545,37 @@ li {
 
 .baner_text {
     position: absolute;
-    width: 433px;
-    height: 70px;
-    left: 320px;
     top: 50px;
 
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 26px;
+    line-height: 20px;
 
     color: #e9e6e6;
 }
 
 .wrap {
+    position: relative;
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 80px);
-    justify-items: center;
-    grid-gap: 18em;
     justify-content: center;
-    grid-row-gap: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    width: 90.70%;
+    gap: 1rem;
 
 
 }
 
 .infoblock {
-    width: 270px;
-    height: 480px;
+    position: relative;
+    width: 290px;
+    height: 290px;
     background: #F3AF55;
     border-radius: 20px;
     box-sizing: border-box;
@@ -634,18 +583,23 @@ li {
 }
 
 .teamtext {
-    font-family: 'Lato', bold;
-    font-weight: 400;
-    font-size: 20px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
     line-height: 29px;
     color: #000000;
     padding: 25px;
+    text-align: center;
+    top: 45%;
+    right: 5%;
 
 }
 
 .rus {
-    padding-left: 100px;
-    padding-top: 10px;
+    position: absolute;
+    right: 28%;
+    top: 5%;
 }
 
 .onas_baner {
@@ -659,20 +613,20 @@ li {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
-    font-size: 35px;
-    line-height: 58px;
+    font-size: 16px;
+    line-height: 20px;
     position: absolute;
     color: #f8f6f6;
-    width: 1470px;
-    height: 164px;
-    left: 350px;
+
+    left: 20%;
     top: 200px;
 
 }
 
 .rus1 {
-    padding-left: 110px;
-    padding-top: 10px;
+    position: absolute;
+    right: 28%;
+    top: 5%;
 }
 
 
@@ -812,6 +766,7 @@ li {
     position: relative;
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
    }
 
    .wrapper .card{
@@ -867,7 +822,6 @@ li {
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     transform: translateY(-100px);
    }
 
@@ -979,3 +933,41 @@ li {
     margin-bottom: 20px;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .header1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 100px;
+
+
+}
+
+.header1 a {
+    color: #000000;
+
+}
+
+.header1 a:hover {
+    color: #f3a704;
+}
