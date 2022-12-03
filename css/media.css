@@ -245,7 +245,7 @@
     }
 
     .cardddd {
-        width: 650px;
+        width: 550px;
     }
 
     .card {
@@ -277,6 +277,11 @@
 
 @media (max-width: 600px) {
 
+
+    .logo {
+        width: 200px;
+    }
+
     .header {
         width: 600px;
     }
@@ -296,22 +301,27 @@
     }
 
     .advantage_phone  {
+        display: flex;
+        display: block;
         margin-top: 35px;
-        max-width: 490px;
+        width: 400px;
+        justify-content: center;
        
     }
 
 
     .advantage_mobile {
+        display: flex;
         display: block;
-        justify-content: start;
+        justify-content: center;
 
         
     }
 
     .hero_h1  {
+        display: none;
         font-size: 17px;
-        top: 35%;
+        top: 25%;
         right: 31%;
         text-align: center;
     }
@@ -321,7 +331,7 @@
     }
 
     .container {
-        max-width: 250px;
+        width: 250px;
         
     }
     .article-title {
@@ -329,6 +339,7 @@
     }
 
     .article {
+        width: 420px;
         background-color: #D9D9D9;
     }
 
@@ -380,8 +391,8 @@
       }
 
    .nav-button {
-    top: 1%;
-    right: 6%;
+    top: 2.5%;
+    right: 3%;
    }
       
     .nav-button {
@@ -420,6 +431,11 @@
 
       .advantage_phone {
         justify-content: center;
+        width: 400px;
+      }
+
+      .tel {
+        margin-top: 7px;
       }
 }
 
@@ -562,7 +578,7 @@
     }
 
     .tel {
-        display: none;
+        
     }
 
     .label {
@@ -932,5 +948,9 @@
 
     .article {
         width: 500px;
+    }
+
+    .advantage_phone {
+        width: 400px;
     }
 }
