@@ -495,12 +495,13 @@
         font-size: 11px;
         line-height: 2.4;
         position: absolute;
+        width: 400px;
      
         
     }
 
     .spisok_block_phone li {
-        width: 350px;
+        width: 400px;
     }
 
     .advantage_phone  {
@@ -599,13 +600,6 @@
     }
 
 
-    .spisok_blockphone {
-        width: 350px;
-    }
-
-    .service_mobile {
-        width: 350px;
-    }
 }
 
 
@@ -674,8 +668,9 @@
             display: none;
         }
         .article-title {
-            font-size: 20px;
+            font-size: 30px;
             margin-top: 25px;
+            text-align: center;
         }
 
         .article {
@@ -798,7 +793,7 @@
     
         .advantage_phone  {
             margin-top: 35px;
-            width: 400px;
+            width: 450px;
            
         }
     
@@ -810,7 +805,7 @@
         }
 
         .card {
-            height: 320px;
+            height: 350px;
         }
 
         .input-wrap {
@@ -819,6 +814,10 @@
 
         .phone {
             margin-left: 25px;
+        }
+
+        .service_mobile_section {
+            width: 455px;
         }
     }
 
