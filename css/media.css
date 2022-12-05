@@ -437,6 +437,16 @@
       .tel {
         margin-top: 7px;
       }
+
+      .service_mobile  {
+        display: block;
+        width: 400px;
+      }
+
+      .spisok_service_mobile {
+        font-weight: lighter;
+        font-size: 13px;
+      }
 }
 
 
@@ -732,8 +742,9 @@
         }
 
         .brands-title {
-            font-size: 30px;
+            font-size: 25px;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .brnd {
@@ -795,6 +806,10 @@
 
         .input-wrap {
             width: 350px;
+        }
+
+        .phone {
+            margin-left: 25px;
         }
     }
 
