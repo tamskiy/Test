@@ -680,7 +680,7 @@
         .article {
             margin-top: 50px;
             width: 600px;
-            padding: 50px;
+            padding: 70px;
 
         }
     
@@ -807,6 +807,7 @@
 
         .service_mobileimg {
             top: 60%;
+            right: 1%;
         }
 
         .numbersphone {
