@@ -797,16 +797,11 @@
     
         .advantage_phone  {
             margin-top: 35px;
-            width: 400px;
+            width: 600px;
            
         }
     
     
-        .advantage_mobile {
-            position: relative;
-            justify-content: center;
-            
-        }
 
         .card {
             height: 350px;
@@ -822,6 +817,11 @@
 
         .service_mobile_section {
             width: 405px;
+        }
+
+        .spisok_blockphone {
+            width: 600px;
+            font-size: 20px;
         }
     }
 
