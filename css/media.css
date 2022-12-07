@@ -680,7 +680,7 @@
         .article {
             margin-top: 50px;
             width: 600px;
-            padding: 70px;
+            padding: 50px;
 
         }
     
@@ -787,7 +787,7 @@
             line-height: 2.4;
             position: absolute;
             padding-left: 20px;
-         
+            
             
         }
     
@@ -839,17 +839,17 @@
         }
 
         .spisok_service_mobile {
-            font-size: 19px;
+            font-size: 18px;
             padding: 5px;
             font-weight: bold;
         }
 
         .spisok_blockphone {
             width: 600px;
-            font-size: 19px;
-            padding: 5px;
+            font-size: 18px;
             font-weight: bold;
             line-height: 2.5;
+            padding: 5px;
             
             
         }
