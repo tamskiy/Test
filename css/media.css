@@ -447,6 +447,10 @@
         font-weight: lighter;
         font-size: 13px;
       }
+
+      .service_mobile_section {
+        width: 400px;
+      }
 }
 
 
@@ -902,7 +906,10 @@
             justify-content: center;
         }
 
-        
+        .service_mobile_section {
+            width: 400px;
+        }
+    
     }
     
 
@@ -976,4 +983,9 @@
     .advantage_phone {
         width: 400px;
     }
+
+    .service_mobile_section {
+        width: 400px;
+    }
+
 }

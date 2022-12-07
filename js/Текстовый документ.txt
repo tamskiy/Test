@@ -1,0 +1,14 @@
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/733ec43304.js" crossorigin="anonymous"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script>
+
+        jQuery(function ($) {
+            $("input[name=tel]").mask("8(000) 000-00-00");
+        });
+
+    </script>
