@@ -801,6 +801,14 @@
            
         }
 
+        .advantage_master {
+            top: 70%;
+        }
+
+        .service_mobileimg {
+            top: 60%;
+        }
+
         .numbersphone {
             font-size: 20px;
 
@@ -821,7 +829,18 @@
         }
 
         .service_mobile_section {
-            width: 405px;
+            width: 600px;
+        }
+
+        .service_mobile {
+            width: 600px;
+            
+        }
+
+        .spisok_service_mobile {
+            font-size: 19px;
+            padding: 5px;
+            font-weight: bold;
         }
 
         .spisok_blockphone {
@@ -829,8 +848,19 @@
             font-size: 19px;
             padding: 5px;
             font-weight: bold;
+            line-height: 2.5;
+            
             
         }
+
+
+        .numbersphone {
+            font-size: 20px;
+            font-weight: bold;
+            
+        } 
+
+        
 
 
     }
