@@ -1,0 +1,991 @@
+@media (max-width: 1350px) {
+    .tel {
+        margin-right: 20px;
+    }
+    .menu li {
+        margin-right: 20px;
+    }
+    
+    
+    .logo  {
+        margin-left: 10px;
+    }
+
+    .container {
+        max-width: 970px;
+    
+
+    }
+    .advantage-title {
+        font-size: 49px;
+    }
+    
+    .nav-soc {
+        display: none;
+    }
+
+    .spisok_block {
+        font-size: 14px;
+        top: 38%;
+        line-height: 1.4;
+    }
+
+    .service-title {
+        font-size: 48px;
+    }
+
+    .spisok_service {
+        font-size: 12.5px;
+        line-height: 1.5;
+        left: 20%;
+    }
+
+    .numbers {
+        font-size: 18px;
+    }
+   .himiya-title {
+    font-size: 48px;
+   }
+   .himiya_text {
+    font-size: 12px;
+    left: 30%;
+    width: 400px;
+   }
+
+   .himiya_text2 {
+    font-size: 12px;
+    left: 42%;
+    width: 400px;
+   }
+
+
+   .brands-title  {
+    font-size: 40px;
+   }
+
+   .whatsapp-button {   
+    bottom: 25px; /*отступ кнопки снизу от экрана*/
+    left: 1100px; /*отступ кнопки слева от экрана(right - справа)*/
+  }
+
+}
+
+
+
+@media (max-width: 1230px) {
+    .menu  {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .whatsapp-button {   
+        bottom: 25px; /*отступ кнопки снизу от экрана*/
+        left: 900px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
+    .header {
+        background-position: 32% 50%;
+    }
+
+    .hero_h1 {
+        right: 2;
+        font-size: 80px;
+    }
+
+    .zakaz {
+        margin-right: 100px;
+        top: 43%
+    }
+
+    .article-title {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+    .hero_h1 {
+        font-size: 60px;
+        
+    }
+
+    .zakaz {
+        margin-right: 50px;
+    }
+
+    .container {
+        max-width: 750px;
+    }
+
+    .spisok_block {
+        font-size: 10px;
+        top: 45%;
+    }
+    .numbers {
+        font-size: 14px;
+    }
+
+    .spisok_service {
+        font-size: 8px;
+        top: 29%;
+    }
+
+    .himiya {
+        display: none;
+    }
+    .whatsapp-button {   
+        bottom: 25px; /*отступ кнопки снизу от экрана*/
+        left: 800px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
+}
+
+@media (max-width: 768px) {
+
+    .hero_h1  {
+        font-size: 70px;
+        top: 90%;
+        right: 18%;
+        text-align: center;
+        
+    }
+
+    .zakaz {
+        margin-right: 100px;
+        top: 100%;
+    }
+
+    .header {
+
+        background-position: 20% 50%;
+    }
+    .container {
+        max-width: 500px;
+        
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .advantage {
+        display: none;
+    }
+
+    .service {
+        display: none;
+    }
+    
+    .himiya {
+        display: none;
+    }
+    .article-title {
+        font-size: 20px;
+    }
+
+    .himiya_text {
+        width: 490px;
+    }
+
+    .label {
+        margin-top: 100px;
+    }
+
+    .button {
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+
+    .container1 .form .button {
+        margin-left: 65px;
+        
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+
+    .nav-button {
+        top: 8%;
+        right: 3%;
+    }
+
+    .cardddd {
+        width: 950px;
+    }
+
+    .container1 {
+        width: 50px;
+    }
+
+    .button button {
+        margin-left: 45px;
+    }
+
+    .label {
+        text-align: center;
+        width: 400px;
+    }
+
+    .cardddd {
+        width: 550px;
+    }
+
+    .card {
+        width: 190px;
+    }
+    .whatsapp-button {   
+        bottom: 25px; /*отступ кнопки снизу от экрана*/
+        left: 600px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
+      .divinfo {
+        margin-right: 50px;
+      }
+
+      .brands-title {
+        font-size: 28px;
+      }
+
+}
+
+
+
+@media (max-width: 650px) {
+    .hero_h1 {
+        right: 12%;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+
+    .logo {
+        width: 200px;
+    }
+
+    .header {
+        width: 600px;
+    }
+
+
+    .spisok_block_phone {
+        display: block;
+        font-size: 11px;
+        line-height: 2.4;
+        position: absolute;
+     
+        
+    }
+
+    .spisok_block_phone li {
+        width: 350px;
+    }
+
+    .advantage_phone  {
+        display: flex;
+        display: block;
+        margin-top: 35px;
+        width: 400px;
+        justify-content: center;
+       
+    }
+
+
+    .advantage_mobile {
+        display: flex;
+        display: block;
+        justify-content: center;
+
+        
+    }
+
+    .hero_h1  {
+        display: none;
+        font-size: 17px;
+        top: 25%;
+        right: 31%;
+        text-align: center;
+    }
+
+    .header {
+        background-position: 24% 50%;
+    }
+
+    .container {
+        width: 250px;
+        
+    }
+    .article-title {
+        font-size: 25px;
+    }
+
+    .article {
+        width: 420px;
+        background-color: #D9D9D9;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .advantage {
+        display: none;
+    }
+
+    .service {
+        display: none;
+    }
+    
+    .himiya {
+        display: none;
+    }
+    .article-title {
+        font-size: 30px;
+    }
+
+    .hero_h1  {
+        font-size: 17px;
+        top: 30%;
+        text-align: center;
+    }
+
+
+    .zakaz {
+        margin-right: 20px;
+    }
+
+    .master {
+        display: none;
+    }
+    
+    .footer {
+        width: 600px;
+        font-size: 11px;
+    }
+
+    .html {
+        width: 600px;
+    }
+    .whatsapp-button {   
+        bottom: 50px; /*отступ кнопки снизу от экрана*/
+        left: 500px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
+   .nav-button {
+    top: 2.5%;
+    right: 3%;
+   }
+      
+    .nav-button {
+        display: block;
+    }
+
+    .article {
+        margin-top: 50px;
+        max-width: 500px;
+        padding-left: 90px;
+        padding-right: 90px;
+
+    }
+
+    .brands-title {
+        font-size: 15px;
+    }
+
+    .brnd {
+        margin-top: 30px;
+    }
+
+    .vemotau-vokusipol{
+        flex: 100%;
+        max-width: 100%;
+      }
+
+      .header .nav-soc {
+        display: none;
+      }
+
+
+      .cardddd {
+        width: 550px;
+      }
+
+      .advantage_phone {
+        justify-content: center;
+        width: 400px;
+      }
+
+      .tel {
+        margin-top: 7px;
+      }
+
+      .service_mobile  {
+        display: block;
+        width: 400px;
+      }
+
+      .spisok_service_mobile {
+        font-weight: lighter;
+        font-size: 13px;
+      }
+
+      .service_mobile_section {
+        width: 400px;
+      }
+}
+
+
+
+@media (max-width: 400px) {
+    .hero_h1  {
+        font-size: 17px;
+        top: 90%;
+        right: 27%;
+        text-align: center;
+    }
+
+    .zakaz {
+        top: 90%;
+        right: 29%;
+    }
+
+    .header {
+        background-position: 35% 50%;
+    }
+    
+    .container2 {
+        max-width: 800px;
+    }
+    
+    .anv {
+        width: 600px;
+    }
+
+    
+    .container {
+        width: 400px;
+        
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .advantage {
+        display: none;
+    }
+
+    .spisok_block_phone {
+        display: block;
+        font-size: 11px;
+        line-height: 2.4;
+        position: absolute;
+        width: 400px;
+     
+        
+    }
+
+    .spisok_block_phone li {
+        width: 400px;
+    }
+
+    .advantage_phone  {
+        margin-top: 35px;
+        max-width: 490px;
+       
+    }
+
+
+    .advantage_mobile {
+        position: relative;
+        justify-content: center;
+        
+    }
+
+    .service {
+        display: none;
+    }
+    
+    .himiya {
+        display: none;
+    }
+
+    .article {
+        width: 600px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .article-title {
+        font-size: 25px;
+    }
+
+    .article {
+        background-color: #D9D9D9;
+        font-size: 35px;
+    }
+
+
+    .master {
+        display: none;
+    }
+
+    .footer {
+        max-width: 600px;
+        font-size: 10px;
+    }
+    .body {
+        width: 600px;
+    }
+    .html {
+        width: 600px;
+    }
+
+    .main {
+        width: 600px;
+    }
+
+    .brands-title {
+        font-size: 15px;
+    }
+
+    .brands {
+        width: 500px;
+    }
+
+    .brnd  {
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .whatsapp-button {   
+        bottom: 25px; /*отступ кнопки снизу от экрана*/
+        left: 500px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
+      .logo {
+        width: 150px;
+        margin-right: 20px;
+        margin-top: 28px;
+    }
+
+    .nav-soc a {
+       display: none;
+    }
+
+    .tel {
+        
+    }
+
+    .label {
+        font-size: 15px;
+    }
+    .cardddd {
+        width: 550px; 
+    }
+
+
+}
+
+
+
+
+@media (max-width : 800px) {
+
+}
+
+
+
+
+    @media (max-width: 500px) {
+
+    .logo {
+        width: 200px;
+    }
+
+    .cardddd {
+        width: 550px;
+    }
+
+    .hero_h1  {
+        display: none;
+        font-size: 30px;
+        top: 70%;
+        right: 30%;
+        text-align: center;
+    }
+
+    .header {
+        background-position: 25% 40%;
+    }
+    
+    .container2 {
+        max-width: 800px;
+    }
+    
+    .anv {
+        width: 600px;
+    }
+
+    
+    .container {
+        width: 250px;
+        
+    }
+        .container {
+            max-width: 500px;
+            
+        }
+    
+        .menu {
+            display: none;
+        }
+    
+        .advantage {
+            display: none;
+        }
+    
+        .service {
+            display: none;
+        }
+        
+        .himiya {
+            display: none;
+        }
+        .article-title {
+            font-size: 30px;
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .article {
+            margin-top: 50px;
+            width: 600px;
+            padding: 50px;
+
+        }
+    
+        .hero_h1  {
+            font-size: 15px;
+            top: 35%;
+            right: 31%;
+            text-align: center;
+        }
+
+    
+        .zakaz {
+            margin-right: 20px;
+        }
+    
+        .master {
+            display: none;
+        }
+        
+        .footer {
+            width: 600px;
+            font-size: 14px;
+        }
+    
+        .html {
+            width: 600px;
+        }
+        .whatsapp-button {   
+            bottom: 30px; /*отступ кнопки снизу от экрана*/
+            left: 550px; /*отступ кнопки слева от экрана(right - справа)*/
+          }
+
+          .main {
+            width: 600px;
+        }
+
+        .logo {
+            margin-top: 5px;
+            margin-left: 0px;
+    
+        }
+
+        .label {
+            margin-top: 100px;
+        }
+
+        .button {
+            margin-top: 25px;
+            margin-left: 50px;
+        }
+
+        .container1 .form .button {
+            margin-left: 65px;
+            
+        }
+
+        .hero_h1  {
+            font-size: 17px;
+            top: 35%;
+            right: 31%;
+            text-align: center;
+        }
+    
+
+        .footer {
+            font-size: 10px;
+        }
+
+        .brands-title {
+            font-size: 25px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .brnd {
+            width: 400px;
+        }
+
+        .brands {
+            width: 500px;
+        }
+        
+        .nav-button {
+            right: 4%;
+            top: 3%;
+        }
+
+        .header a {
+            margin-top: 10px;
+        }
+
+        .header i {
+            margin-top: 10px;
+        
+        }
+
+        .zakaz{
+            margin-right: 5px;
+        }
+
+        .spisok_block_phone {
+            display: block;
+            font-size: 10px;
+            line-height: 2.4;
+            position: absolute;
+            padding-left: 20px;
+         
+            
+        }
+    
+        .spisok_block_phone li {
+            width: 350px;
+        }
+    
+        .advantage_phone  {
+            margin-top: 35px;
+            width: 600px;
+           
+        }
+    
+    
+
+        .card {
+            height: 350px;
+        }
+
+        .input-wrap {
+            width: 350px;
+        }
+
+        .phone {
+            margin-left: 25px;
+        }
+
+        .service_mobile_section {
+            width: 405px;
+        }
+
+        .spisok_blockphone {
+            width: 600px;
+            font-size: 20px;
+        }
+    }
+
+
+
+
+
+
+    @media (max-width: 375px) {
+        .container {
+            width: 250px;
+            
+        }
+
+        .hero_h1  {
+            font-size: 17px;
+            top: 35%;
+            right: 31%;
+            text-align: center;
+        }
+    
+        .menu {
+            display: none;
+        }
+    
+        .advantage {
+            display: none;
+        }
+    
+        .service {
+            display: none;
+        }
+        
+        .himiya {
+            display: none;
+        }
+        .article-title {
+            font-size: 25px;
+        }
+    
+    
+        .master {
+            display: none;
+        }
+    
+        .footer {
+            max-width: 600px;
+            font-size: 14px;
+        }
+        .body {
+            width: 600px;
+        }
+        .html {
+            width: 600px;
+        }
+    
+        
+        .main {
+            width: 600px;
+        }
+    
+        .logo {
+            width: 150px;
+            margin-right: 20px;
+        }
+    
+        .nav-soc {
+           display: none;
+        }
+
+        .article {
+            width: 500px;
+        }
+
+
+        .zakaz {
+            margin-right: 25px;
+        }
+
+
+        .advantage_phone {
+            justify-content: center;
+        }
+
+        .service_mobile_section {
+            width: 400px;
+        }
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 360px) {
+    .container {
+        width: 250px;
+        
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .advantage {
+        display: none;
+    }
+
+    .service {
+        display: none;
+    }
+    
+    .himiya {
+        display: none;
+    }
+    .article-title {
+        font-size: 30px;
+    }
+
+
+    .master {
+        display: none;
+    }
+
+    .footer {
+        max-width: 600px;
+        font-size: 14px;
+    }
+    .body {
+        width: 600px;
+    }
+    .html {
+        width: 600px;
+    }
+
+    
+    .main {
+        width: 600px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .nav-soc {
+        display: none;
+    }
+
+    .article {
+        width: 500px;
+    }
+
+    .advantage_phone {
+        width: 400px;
+    }
+
+    .service_mobile_section {
+        width: 400px;
+    }
+
+}
