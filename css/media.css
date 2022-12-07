@@ -850,6 +850,7 @@
             font-weight: bold;
             line-height: 2.5;
             padding: 5px;
+
             
             
         }
@@ -861,7 +862,9 @@
             
         } 
 
-        
+        .remont_title {
+            padding: 10px;
+        }
 
 
     }
