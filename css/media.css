@@ -800,6 +800,11 @@
             width: 600px;
            
         }
+
+        .numbersphone {
+            font-size: 20px;
+
+        }
     
     
 
@@ -821,8 +826,13 @@
 
         .spisok_blockphone {
             width: 600px;
-            font-size: 20px;
+            font-size: 19px;
+            padding: 5px;
+            font-weight: bold;
+            
         }
+
+
     }
 
 
