@@ -9,7 +9,7 @@ jQuery(document).ready(function(){
 				title: "Спасибо за заявку!",
                 type: "success",
                 showConfirmButton: false,
-                timer: 5000
+                timer: 2000
             })
         });
         $(this).find('input, textarea').prop('disabled', true);
