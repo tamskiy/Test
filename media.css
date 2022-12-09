@@ -154,11 +154,6 @@
         left: 800px; /*отступ кнопки слева от экрана(right - справа)*/
       }
 
-    .phone-button {   
-        bottom: 5px; /*отступ кнопки снизу от экрана*/
-        left: 70px; /*отступ кнопки слева от экрана(right - справа)*/
-      }
-
 }
 
 @media (max-width: 768px) {
@@ -608,6 +603,14 @@
         width: 550px; 
     }
 
+    .phone {
+        width: 250px
+    }
+    
+    .button {
+        margin-left: 45px;
+
+    }
 
 }
 
@@ -764,6 +767,11 @@
             width: 400px;
         }
 
+        .brands-title {
+            width: 450px;
+            font-size: 30px;
+        }
+
         .brands {
             width: 500px;
         }
@@ -792,7 +800,7 @@
             line-height: 2.4;
             position: absolute;
             padding-left: 20px;
-         
+            
             
         }
     
@@ -802,16 +810,26 @@
     
         .advantage_phone  {
             margin-top: 35px;
-            width: 400px;
+            width: 600px;
            
         }
-    
-    
-        .advantage_mobile {
-            position: relative;
-            justify-content: center;
-            
+
+        .advantage_master {
+            top: 65%;
+            right: 2%;
         }
+
+        .service_mobileimg {
+            top: 60%;
+            right: 1%;
+        }
+
+        .numbersphone {
+            font-size: 20px;
+
+        }
+    
+    
 
         .card {
             height: 350px;
@@ -826,7 +844,55 @@
         }
 
         .service_mobile_section {
-            width: 405px;
+            width: 600px;
+        }
+
+        .service_mobile {
+            width: 600px;
+            
+        }
+
+        .spisok_service_mobile {
+            font-size: 23px;
+            padding: 2px;
+            font-weight: bold;
+        }
+
+        .spisok_blockphone {
+            width: 600px;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 2.5;
+            padding: 2px;
+        
+
+            
+            
+        }
+
+
+        .numbersphone {
+            font-size: 28px;
+            font-weight: bold;
+            
+        } 
+
+        .remont_title {
+            padding: 10px;
+        }
+
+        .advontagemobt {
+            font-size: 30px;
+        }
+
+
+        .phone {
+            padding-left:  10px;
+            padding-right: 10px;
+        }
+
+        .container1 .form .button{
+            margin-left: 55px;
         }
     }
 
