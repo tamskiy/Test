@@ -154,6 +154,11 @@
         left: 800px; /*отступ кнопки слева от экрана(right - справа)*/
       }
 
+    .phone-button {   
+        bottom: 5px; /*отступ кнопки снизу от экрана*/
+        left: 70px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
 }
 
 @media (max-width: 768px) {
@@ -797,11 +802,16 @@
     
         .advantage_phone  {
             margin-top: 35px;
-            width: 600px;
+            width: 400px;
            
         }
     
     
+        .advantage_mobile {
+            position: relative;
+            justify-content: center;
+            
+        }
 
         .card {
             height: 350px;
@@ -817,11 +827,6 @@
 
         .service_mobile_section {
             width: 405px;
-        }
-
-        .spisok_blockphone {
-            width: 600px;
-            font-size: 20px;
         }
     }
 
