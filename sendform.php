@@ -4,8 +4,8 @@ $name = $_POST['name'];
 $phone = $_POST['tel'];
 
 $token = "5895875205:AAHp1R3KUiJHNXHGw-gAL_cSUkT1HSwwZW4";
-$chat_id = "-460863116";
-$sitename = "Electronik.kz"; //Указываем название сайта
+$chat_id = "-838558316";
+$sitename = "Electroniс.kz"; //Указываем название сайта
 
 $arr = array(
   'Заказчик: ' => $name,

@@ -60,11 +60,11 @@ li {
 }
 
 #num {
-    color: #f3a704;
+    color: #ff9a1a;
 }
 
 .header a:hover {
-    color: #f3a704;
+    color: #ff9a1a;
 }
 
 .menu {
@@ -130,7 +130,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: rgb(255, 160, 7);
+    color: #ff9a1a;
     text-align: center;
     font-size: 50px;
 
@@ -148,7 +148,7 @@ li {
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    background: #f3a704;
+    background: #ff9a1a;
     text-transform: uppercase;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
@@ -182,8 +182,8 @@ li {
 
 
 .advantage-title {
-    padding-left: 60px;
-    font-size: 70px;
+    padding-left: 30px;
+    font-size: 50px;
     margin-bottom: 0px;
 }
 
@@ -214,7 +214,7 @@ li {
 .spisok_block {
     position: absolute;
     flex-direction: column;
-    top: 40%;
+    top: 34%;
     left: 45%;
     font-size: 18px;
     line-height: 1.5;
@@ -294,7 +294,7 @@ li {
 .service-title {
     display: flex;
     justify-content: flex-end;
-    font-size: 63px;
+    font-size: 40px;
     margin: 0;
 
 }
@@ -377,7 +377,7 @@ li {
 
 
 .himiya-title {
-    font-size: 65px;
+    font-size: 30px;
     margin-bottom: 0;
 }
 
@@ -395,7 +395,7 @@ li {
 .himiya_text {
     width: 560px;
     position: absolute;
-    top: 39%;
+    top: 29%;
     left: 30%;
     font-size: 16px;
 
@@ -828,7 +828,7 @@ li {
    }
 
    .wrapper .card:hover .face.face1{
-    background: #f3a704;
+    background: #ff9a1a;;
     transform: translateY(0);
    }
 

@@ -603,6 +603,14 @@
         width: 550px; 
     }
 
+    .phone {
+        width: 250px
+    }
+    
+    .button {
+        margin-left: 45px;
+
+    }
 
 }
 
@@ -678,6 +686,7 @@
         }
 
         .article {
+            justify-content: center;
             margin-top: 50px;
             width: 600px;
             padding: 50px;
@@ -759,6 +768,11 @@
             width: 400px;
         }
 
+        .brands-title {
+            width: 450px;
+            font-size: 30px;
+        }
+
         .brands {
             width: 500px;
         }
@@ -802,7 +816,8 @@
         }
 
         .advantage_master {
-            top: 70%;
+            top: 65%;
+            right: 2%;
         }
 
         .service_mobileimg {
@@ -839,17 +854,18 @@
         }
 
         .spisok_service_mobile {
-            font-size: 18px;
-            padding: 5px;
+            font-size: 23px;
+            padding: 2px;
             font-weight: bold;
         }
 
         .spisok_blockphone {
             width: 600px;
-            font-size: 18px;
+            font-size: 24px;
             font-weight: bold;
             line-height: 2.5;
-            padding: 5px;
+            padding: 2px;
+        
 
             
             
@@ -857,7 +873,7 @@
 
 
         .numbersphone {
-            font-size: 20px;
+            font-size: 28px;
             font-weight: bold;
             
         } 
@@ -866,7 +882,24 @@
             padding: 10px;
         }
 
+        .advontagemobt {
+            font-size: 30px;
+        }
 
+
+        .phone {
+            padding-left:  10px;
+            padding-right: 10px;
+        }
+
+        .container1 .form .button{
+            margin-left: 55px;
+        }
+
+        .wrapper  {
+            width: 500px;
+            margin-right: 100px;
+        }
     }
 
 
