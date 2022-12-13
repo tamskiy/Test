@@ -1,8 +1,8 @@
+/*********************************Главная*******************************************************/
 html {
     box-sizing: border-box;
     background-color: #F1EEEE;
     font-family: 'Roboto', sans-serif;
-
 }
 
 
@@ -12,13 +12,11 @@ body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-
 }
 
 .wrapper1 {
     max-width: 1350px;
     flex-direction: column;
-
 }
 
 ul,
@@ -32,7 +30,6 @@ li {
     flex-wrap: wrap;
     max-width: 1350px;
     margin: 0 auto;
-
 }
 
 .container2 {
@@ -41,7 +38,7 @@ li {
     max-width: 1920px;
     margin: 0 auto;
 }
-
+/*********************************Hader*******************************************************/
 .header {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -50,13 +47,10 @@ li {
     background-size: auto;
     height: 900px;
     margin-bottom: 100px;
-
-
 }
 
 .header a {
     color: #000000;
-
 }
 
 #num {
@@ -70,7 +64,6 @@ li {
 .menu {
     display: flex;
     list-style-type: none;
-
 }
 
 .menu li a {
@@ -80,7 +73,6 @@ li {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 17px;
-
 }
 
 .menu li {
@@ -95,7 +87,6 @@ li {
     margin-right: 50px;
     color: #F3AF55;
     margin-left: 5px;
-
 }
 
 .nav-soc {
@@ -133,13 +124,11 @@ li {
     color: #ff9a1a;
     text-align: center;
     font-size: 50px;
-
 }
 
 .hero_h1 {
     position: absolute;
     top: 30%;
-
 }
 
 
@@ -170,15 +159,15 @@ li {
     margin-right: 180px;
     top: 50%;
 }
+/*********************************Hader*******************************************************/
 
 
+/*********************************main*******************************************************/
 .master {
     display: flex;
     margin: 0 auto;
     padding: 0 50px;
-
 }
-
 
 
 .advantage-title {
@@ -218,24 +207,8 @@ li {
     left: 45%;
     font-size: 18px;
     line-height: 1.5;
-
 }
 
-
-.spisok_block_phone  {
-    display: none;
-}
-
-
-.spisok_blockphone {
-    flex-direction: column;
-    font-size: 13px;
-    font-weight: lighter;
-    line-height: 2;
-    width: 414px;
-    position: relative;
-
-}
 
 .advantage_master {
     position: absolute;
@@ -263,40 +236,16 @@ li {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-
     margin: 50px auto;
     position: relative;
     padding: 0 15px;
 }
-
-.service_mobile  {
-    position: relative;
-    display: none;
-    flex-direction: column;
-    font-size: 13px;
-    font-weight: lighter;
-    line-height: 2;
-    width: 414px;
-    position: relative;
-    width: 400px;
-    line-height: 2.5;
-}
-
-.service_mobileimg {
-    position: absolute;
-    top: 50%;
-    right: -5%;
-    z-index: 1;
-}
-
-
 
 .service-title {
     display: flex;
     justify-content: flex-end;
     font-size: 40px;
     margin: 0;
-
 }
 
 
@@ -332,7 +281,6 @@ li {
     padding: 30px;
     border: 1px solid #F1EEEE;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .container1 .form {
@@ -349,14 +297,12 @@ li {
     margin-bottom: 40px;
     font-size: 22px;
     color: #111;
-
 }
 
 .container1 .form .phone {
     border: 1px solid #8f8f94;
     padding: 20px;
     font-size: 25px;
-
 }
 
 .container1 .form .phone::placeholder {
@@ -371,10 +317,7 @@ li {
     background-color: #f3a704;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-
 }
-
-
 
 .himiya-title {
     font-size: 30px;
@@ -389,16 +332,12 @@ li {
 }
 
 
-
-
-
 .himiya_text {
     width: 560px;
     position: absolute;
     top: 29%;
     left: 30%;
     font-size: 16px;
-
 }
 
 .himiya_text2 {
@@ -428,7 +367,96 @@ li {
     margin-top: 80px;
 }
 
+/*********************************main*******************************************************/
 
+
+
+/*********************************mobile*******************************************************/
+.spisok_block_phone  {
+    display: none;
+}
+
+
+.spisok_blockphone {
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 2;
+    width: 414px;
+    position: relative;
+
+}
+
+.service_mobile  {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 2;
+    width: 414px;
+    position: relative;
+    width: 400px;
+    line-height: 2.5;
+}
+
+.service_mobileimg {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    z-index: 1;
+}
+
+/*********************************mobile*******************************************************/
+
+
+
+/*********************************Footer*******************************************************/
+.inform {
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.inform a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 10px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #D8D6D6;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.foter_soc {
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.divinfo a {
+    margin-top: 15px;
+}
+
+.menu_openfoter {
+    justify-content: column;
+    line-height: 2.2;
+    font-size: 20px;
+    margin-top: 82px;
+}
+
+.divinfo {
+    margin-right: 300px;
+    
+}
+/*********************************Footer*******************************************************/
+
+
+/*********************************popUP*******************************************************/
 .pop_up {
     width: 100%;
     height: 100%;
@@ -439,10 +467,7 @@ li {
     z-index: 2;
     transform: translateY(-44.5%) scale(0);
     transition: .4s ease-in-out;
-
-
 }
-
 
 .pop_up.active {
     transform: translateY(0%) scale(100%);
@@ -485,7 +510,6 @@ li {
     border: none;
     font-weight: 400;
     font-size: 18px;
-
     color: #89909F;
 }
 
@@ -516,167 +540,10 @@ li {
     cursor: pointer;
     color: #000000;
 }
+/*********************************popUP*******************************************************/
 
 
-
-
-.inform {
-    margin-top: 50px;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-}
-
-.inform a {
-    text-decoration: none;
-    color: #000000;
-    margin-right: 10px;
-}
-
-
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: #D8D6D6;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-.foter_soc {
-    margin-right: 15px;
-    margin-bottom: 25px;
-}
-
-.divinfo a {
-    margin-top: 15px;
-}
-
-.menu_openfoter {
-    justify-content: column;
-    line-height: 2.2;
-    font-size: 20px;
-    margin-top: 82px;
-
-}
-
-.divinfo {
-    margin-right: 300px;
-    
-}
-
-
-
-
-
-/*******************************************ONAS*****************/
-
-
-
-.zagolovok {
-    justify-content: flex-start;
-    font-size: 45px;
-    margin-bottom: 0px;
-}
-
-.zagolovok h1 {
-    margin-bottom: 0;
-}
-
-
-.banner {
-    position: relative;
-    z-index: 1;
-}
-
-.baner_text {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 20px;
-
-    color: #000000;
-}
-
-.wrap {
-    position: relative;
-    margin-top: 20px;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-top: 65px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    width: 90.70%;
-    gap: 1rem;
-
-
-}
-
-.infoblock {
-    position: relative;
-    width: 290px;
-    height: 290px;
-    background: #F3AF55;
-    border-radius: 20px;
-    box-sizing: border-box;
-    transition: .8s;
-}
-
-.teamtext {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 29px;
-    color: #000000;
-    padding: 25px;
-    text-align: center;
-    top: 45%;
-    right: 5%;
-
-}
-
-.rus {
-    position: absolute;
-    right: 28%;
-    top: 5%;
-}
-
-
-
-.baner2_text {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 20px;
-    color: #0d0c0c;
-
-
-}
-
-.rus1 {
-    position: absolute;
-    right: 28%;
-    top: 5%;
-}
-
-
-
-.infoblock:hover {
-    transform: translateY(-8px);
-}
-
-
-
-
-
-
-
-
-
-
+/*********************************Whatsapp*******************************************************/
 .whatsapp-button {
     position: fixed;
     right: 13px;
@@ -739,66 +606,12 @@ li {
         opacity: 0;
     }
 }
+/*********************************Whatsapp*******************************************************/
 
 
 
-
-
-
-
-.razrab {
-    display: flex;
-    justify-content: center;
-    margin-left: 700px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   .wrapper{
+/*********************************card*******************************************************/
+.wrapper{
     width: 1000px;
     position: relative;
     display: flex;
@@ -882,6 +695,7 @@ li {
     background: #333;
     color: #fff;
    }
+/*********************************card*******************************************************/
 
 
 
@@ -896,115 +710,160 @@ li {
 
 
 
+/*********************************Onas*******************************************************/
+.headeronas {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+    background: url('../img/headbackground.png') no-repeat center top;
+    background-size: auto;
+    height: 900px;
+    margin-bottom: 100px;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   .koguvcavis-varazdel {
-    padding: 25px 0;
-    background: #adadad;
-    color: #2f2f2f;
-    text-align: center;
-  }
-  .sestim-donials{
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
-  }
-  
-  .sectionesag {
-    width: 195px;
-    height: 3px;
-    background: #498a2d;
-    margin: 23px auto;
-  }
-  
-  .sagestim-lonials{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .vemotau-vokusipol{
-    flex: 33.33%;
-    max-width: 33.33%;
-    box-sizing: border-box;
-    padding: 15px;
-  }
-  .testimonial {
-    background: #f9f4f4;
-    padding: 28px;
-  }
-  .testimonial img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  .gecedanam{
-    font-size: 20px;
-    text-transform: uppercase;
-    margin: 20px 0;
-  }
-  .apogered-gselected{
-    color: #53b32b;
-    margin-bottom: 20px;
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .header1 {
+.headeronas {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     position: relative;
     margin-bottom: 100px;
-
-
 }
 
-.header1 a {
+.headeronas a {
     color: #000000;
-
 }
 
-.header1 a:hover {
+.headeronas a:hover {
     color: #f3a704;
 }
+.onas-icon {
+    justify-content: center;
+    
+}
+
+.iconblock {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.company {
+    justify-content: space-between;
+    flex: 0 1 50%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    
+}
+
+.spec {
+    width: 100px;
+}
+
+
+
+
+.btn_onas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #ff9a1a;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(253, 253, 253);
+    opacity: 1;
+}
+
+
+.zakaz_onas {
+    margin-top: 50px;
+}
+
+.onasinfo {
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+
+.advantage_list {
+    font-size: 22px;
+    line-height: 3.5;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.adv_company {
+    position: relative;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+
+.adv_company:before {
+    content: '';
+    background: url('../img/micro.png') 0 0 no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -25%;
+    left: 0;
+
+}
+
+.masterstar {
+    position: relative;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.masterstar:before {
+    content: '';
+    background: url('../img/masterstar.svg') 0 0 no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -20%;
+    left: 0;
+}
+
+
+
+.garantyonas {
+    position: relative;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    
+}
+
+
+.garantyonas::before {
+    content: '';
+    background: url('../img/garantyonas.svg') 0 0 no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    
+}
+
+.viezd {
+    font-size: 40px;
+    margin-top: 65px;
+    background-color: orange;
+    padding: 25px;
+
+}
+/*********************************Onas*******************************************************/

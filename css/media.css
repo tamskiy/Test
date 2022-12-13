@@ -592,9 +592,6 @@
        display: none;
     }
 
-    .tel {
-        
-    }
 
     .label {
         font-size: 15px;
@@ -610,6 +607,10 @@
     .button {
         margin-left: 45px;
 
+    }
+    .wrapper  {
+        width: 500px;
+        margin-right: 100px;
     }
 
 }
@@ -1066,3 +1067,277 @@
     }
 
 }
+
+
+
+/*********************************Onas*******************************************************/
+@media (max-width: 1350px) {
+    .tel {
+        margin-right: 20px;
+    }
+    .menu li {
+        margin-right: 20px;
+    }
+    
+    
+    .logo  {
+        margin-left: 10px;
+    }
+
+    .container {
+        max-width: 970px;
+    }
+
+ 
+    
+    .nav-soc {
+        display: none;
+    }
+
+
+   .whatsapp-button {   
+    bottom: 25px; /*отступ кнопки снизу от экрана*/
+    left: 1100px; /*отступ кнопки слева от экрана(right - справа)*/
+  }
+
+  .adv_company {
+    padding-left: 150px;
+    font-size: 16px;
+  }
+
+  .adv_company:before {
+    background-size: 75%;
+    top: -21%;
+  }
+
+
+  .masterstar {
+    padding-left: 150px;
+    font-size: 16px;
+  }
+
+  .masterstar:before {
+    background-size: 75%;
+    top: -27%;
+  }
+
+  .garantyonas {
+    padding-left: 150px;
+    font-size: 15px;
+  }
+
+  .garantyonas:before {
+    background-size: 75%;
+    top: -28%;
+}
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .headeronas {
+        background-size: 99.5%;
+        background-position: 60% 20%;
+        margin-bottom: 0;
+        height: 800px;
+    }
+    .container {
+        max-width: 500px;
+        
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+    .footer {
+        font-size: 10px;
+    }
+
+
+    .nav-button {
+        top: 8%;
+        right: 3%;
+    }
+
+ 
+
+    .container1 {
+        width: 50px;
+    }
+
+
+    .whatsapp-button {   
+        bottom: 25px; /*отступ кнопки снизу от экрана*/
+        left: 700px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+
+      .divinfo {
+        margin-right: 50px;
+      }
+
+      .onasinfo  {
+        font-size: 45px;
+      }
+
+      .adv_company {
+        line-height: 2;
+      }
+
+      .adv_company:before {
+        background-size: 75%;
+        top: -6%;
+      }
+
+
+      .masterstar {
+        line-height: 2;
+      }
+
+      .masterstar:before {
+        background-size: 75%;
+        top: -4%;
+      }
+
+      .garantyonas {
+        line-height: 2;
+      }
+
+      .garantyonas:before {
+        background-size: 75%;
+        top: -6%;
+    }
+
+    .viezd  {
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media (max-width: 600px) {
+    .logo {
+        width: 200px;
+    }
+
+    .headeronas {
+        width: 600px;
+    }
+
+    .onas-icon {
+        width: 500px;
+    }
+
+    .headeronas {
+        background-size: 99.5%;
+        background-position: 60% 20%;
+        margin-bottom: 0;
+        height: 500px;
+    }
+
+    .onasinfo  {
+        font-size: 28px;
+    }
+
+    .advantage_list {
+        width: 400px;
+    }
+
+    .nav-soc {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 500px) { 
+
+
+    .onasmain {
+        width: 600px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .headeronas {
+        background-position: 25% 40%;
+    }
+
+    .anv {
+        width: 600px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+
+
+    .footer {
+        width: 600px;
+        font-size: 14px;
+    }
+
+
+    .whatsapp-button {
+        bottom: 30px;
+        /*отступ кнопки снизу от экрана*/
+        left: 550px;
+        /*отступ кнопки слева от экрана(right - справа)*/
+    }
+
+
+    .logo {
+        margin-top: 5px;
+        margin-left: 0px;
+
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    .nav-button {
+        right: 4%;
+        top: 3%;
+    }
+
+    .headeronas a {
+        margin-top: 10px;
+    }
+
+    .headeronas i {
+        margin-top: 10px;
+
+    }
+
+    .phone {
+        margin-left: 25px;
+    }
+
+
+    .phone {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .headeronas {
+        background-position: 1229% 40%;
+    }
+}
+
+
+
+
+/*********************************Onas*******************************************************/
